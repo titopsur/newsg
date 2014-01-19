@@ -64,7 +64,7 @@ function downloadRSS() {
                 var filePath = "data/" + uuid.v1();
                 fs.writeFile(filePath, body, function(err) {
                     if (err) throw err;
-                    console.log('%s saved.', urls[u]);
+                    console.log('%s savedd.', urls[u]);
                 });
 
                 fs.createReadStream(filePath).on('error', function(error) {
