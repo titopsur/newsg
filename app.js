@@ -47,7 +47,7 @@ var request = require('request'),
 
 var urls = [
     'hhhttp://feeds.bbci.co.uk/news/technology/rss.xml',
-    'http://rss.cnn.com/rss/edition_technology.rss',
+    '123http://rss.cnn.com/rss/edition_technology.rss',
     'http://feeds.reuters.com/reuters/technologyNews.rss'
 ];
 
